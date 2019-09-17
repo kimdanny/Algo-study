@@ -10,6 +10,7 @@ Memory: 14.3 MB
 '''
 
 # Solution 2 #
+# Bad solution. Don't follow this
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         for i in range(len(A)):
