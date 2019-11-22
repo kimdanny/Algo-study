@@ -1,9 +1,9 @@
-"
+"""
 HackerRank.
 Given Gary's sequence of up and down steps during his last hike, find and print the number of valleys he walked through.
 For example, if Gary's path is [DDUUUUDD], he first enters a valley 2 units deep. 
 Then he climbs out an up onto a mountain 2 units high. Finally, he returns to sea level and ends his hike.
-"
+"""
 def countingValleys(n, s):
     numOfValleys = 0
     level = 0
