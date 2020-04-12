@@ -25,7 +25,7 @@ Memory: 13.9 MB
 '''
 
 # Solution 2 #
-class Solution:
+class _Solution:
     def removeOuterParentheses(self, string: str) -> str:
         result = []
         head = 0

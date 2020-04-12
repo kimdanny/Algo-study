@@ -1,5 +1,7 @@
+# def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
+
 class Solution:
-    def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
+    def flipAndInvertImage(self, A):
         result_matrix =[]
         for row in A:
             row.reverse()

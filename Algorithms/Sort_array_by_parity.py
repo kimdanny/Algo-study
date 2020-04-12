@@ -1,6 +1,8 @@
 # Solution 1 #
-class Solution:
-    def sortArrayByParity(self, A: List[int]) -> List[int]:
+# sortArrayByParity(self, A: List[int]) -> List[int]
+
+class Solution1:
+    def sortArrayByParity(self, A):
         A.sort(key=lambda x: x%2)
         return A
 
@@ -11,8 +13,8 @@ Memory: 14.3 MB
 
 # Solution 2 #
 # Bad solution. Don't follow this
-class Solution:
-    def sortArrayByParity(self, A: List[int]) -> List[int]:
+class Solution2:
+    def sortArrayByParity(self, A):
         for i in range(len(A)):
             if A[i]%2==0:
                 A.insert(0, A[i])
@@ -25,8 +27,8 @@ Memory: 14.4 MB
 '''
 
 # Solution 3 #
-class Solution:
-    def sortArrayByParity(self, A: List[int]) -> List[int]:
+class Solution3:
+    def sortArrayByParity(self, A):
         even = []
         odd = []
         for x in A:

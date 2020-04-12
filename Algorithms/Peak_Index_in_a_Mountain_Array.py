@@ -1,6 +1,6 @@
 # Solution 1 #
-class Solution:
-    def peakIndexInMountainArray(self, A: List[int]) -> int:
+class Solution1:
+    def peakIndexInMountainArray(self, A) -> int:
         for i in range(len(A)):
             if A[i] > A[i+1]:
                 return i
@@ -11,8 +11,8 @@ Memory Usage: 15.1 MB
 '''
 
 # Solution 2 #
-class Solution:
-    def peakIndexInMountainArray(self, A: List[int]) -> int:
+class Solution2:
+    def peakIndexInMountainArray(self, A) -> int:
         front = 0
         back = 1
         last = len(A)-1

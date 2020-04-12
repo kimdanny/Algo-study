@@ -1,5 +1,7 @@
+# def uniqueOccurrences(self, arr: List[int]) -> bool:
+
 class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr):
         occurLog = {}
         for x in arr:
             if x not in occurLog:
